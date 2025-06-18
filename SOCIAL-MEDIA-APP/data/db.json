@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Post",
+      "datetime": "June 16 , 2025 3:24:07 PM",
+      "body": "Made a video about Tesla Q1 resultss"
+    },
+    {
+      "id": "411",
+      "title": "My 2nd Post",
+      "datetime": "June 16 , 2025 3:31:42 PM",
+      "body": "Uncaught runtime errors:\n×\nERROR\nCannot read properties of undefined (reading 'toLowerCase')\nTypeError: Cannot read properties of undefined (reading 'toLowerCase')\n    at http://localhost:3000/static/js/bundle.js:40930:60\n    at Array.filter (<anonymous>)"
+    },
+    {
+      "id": "4111",
+      "title": "My 3rd Post",
+      "datetime": "June 16 , 2025 3:31:26 PM",
+      "body": "useEffect(() => {\n  const filteredResults = posts.filter((post) =>\n    post.body?.toLowerCase().includes(search.toLowerCase()) ||\n    post.title?.toLowerCase().includes(search.toLowerCase())\n  );\n\n  setSearchResults(filteredResults.reverse());\n}, [posts, search]);"
+    },
+    {
+      "id": "41111",
+      "title": "helloo",
+      "datetime": "June 16 , 2025 7:30:48 PM",
+      "body": "8015579731"
+    }
+  ]
+}
